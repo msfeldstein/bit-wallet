@@ -58,14 +58,4 @@
             android:layout_height="wrap_content"
             android:text="@string/return_to_faucet" />
     </LinearLayout>
-
-    <EditText
-        android:id="@+id/logger"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:inputType="textMultiLine" >
-
-        <requestFocus />
-    </EditText>
-
 </LinearLayout>

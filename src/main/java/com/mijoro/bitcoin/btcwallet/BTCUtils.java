@@ -12,6 +12,10 @@ public class BTCUtils {
 	private static final int ONE_BTC_INT = ONE_BTC.intValue();
 	private static final int ONE_MBTC_INT = ONE_MBTC.intValue();
 	
+	public static String formatBTC(BigInteger amount) {
+		return formatValue(amount, 4, 0);
+	}
+	
 	public static String formatValue(@Nonnull final BigInteger value, final int precision, final int shift)
 	{
 		return formatValue(value, "", "-", precision, shift) + "BTC";
