@@ -33,7 +33,7 @@ import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class HelloAndroidActivity extends Activity implements WalletEventListener {
+public class MainActivity extends Activity implements WalletEventListener {
 	private Handler mHandler;
 	private EditText mLogger;
 	private TextView mBalanceField, mVerifiedBalanceField;
@@ -70,7 +70,7 @@ public class HelloAndroidActivity extends Activity implements WalletEventListene
         			wallet().addKey(key);
         		}
         		logBG("First key is " + keys.get(0).toAddress(params));
-        		wallet().addEventListener(HelloAndroidActivity.this);
+        		wallet().addEventListener(MainActivity.this);
         	}
         };
         mKit.start();
