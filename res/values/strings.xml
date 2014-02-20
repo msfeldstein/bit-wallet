@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bit Wallet</string>
+    <string name="action_settings">Settings</string>
+    <string name="estimated_balance">Estimated</string>
+    <string name="verified_balance">Verified</string>
+    <string name="syncing">Syncing</string>
+    <string name="return_to_faucet">Return to faucet</string>
+
+</resources>
